@@ -7,5 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print npm version
-        run: npm -v
+      - name: Install Quasar CLI
+        run: |
+          npm -v
+          node -v
