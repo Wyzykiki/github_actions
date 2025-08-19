@@ -18,5 +18,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: pwd
+        run: pwd
+
       - name: ls
         run: ls -la
+
+      - name: npm packages
+        run: npm ll -g
