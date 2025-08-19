@@ -8,6 +8,4 @@ jobs:
 
     steps:
       - name: Install Quasar CLI
-        run: |
-          npm -v
-          node -v
+        run: npm init quasar@latest
