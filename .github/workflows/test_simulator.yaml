@@ -1,0 +1,11 @@
+name: Build and Deploy the simulator to production environements.
+
+on: workflow_dispatch
+
+jobs:
+  init:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print npm version
+        run: npm -v
